@@ -1,0 +1,26 @@
+{
+    "name": "prakash/todolist",
+    "description": "You can create the to-do-list of your task.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prakash Joshi",
+            "email": "developer.prakashjoshi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Prakash\\Todolist\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Prakash\\Todolist\\Providers\\TodolistServiceProvider"
+            ]
+        }
+    }
+}
